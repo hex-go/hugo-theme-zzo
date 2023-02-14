@@ -98,22 +98,25 @@ other = "固定"
 other = "Please enable Javascript to view the contents"
 
 [posts-by-order]
-other = "TOP POSTS"
+other = "热门文章"
 
 [skin-dark]
-other = "dark"
+other = "深色模式"
 
 [skin-light]
-other = "light"
+other = "浅色模式"
 
 [skin-hacker]
 other = "hacker"
 
 [skin-solarized]
-other = "solarized"
+other = "护眼模式"
 
 [skin-kimbie]
 other = "kimbie"
 
 [no-contents]
-other = "Nothing to Display"
+other = "这篇文章不存在。 (404 错误)"
+
+[poweredBy]
+other = '<p class="caption">由 <a href="https://gohugo.io">Hugo</a> 强力驱动 &nbsp;&bull;&nbsp; 主题 <a href="https://github.com/zzossig/hugo-theme-zzo">Zzo</a></p>'
