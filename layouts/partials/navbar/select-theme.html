@@ -4,7 +4,7 @@
     <button class="dropdown-trigger navbar__slide-down" aria-label="Select Theme Button" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">
       {{ partial "svgs/etc/invert-colors.svg" (dict "width" 22 "height" 22) }}      
     </button>
-    <div class="dropdown-content select-theme">
+    <div class="dropdown-content select-theme" style="width: 82px">
       {{ if .Site.Params.themeOptions }}
         {{ range $index, $value := .Site.Params.themeOptions }}
         <a href="#" class="dropdown-item select-theme__item {{ if (eq $index 0) }}is-active{{ end }}">
